@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ApplicationsList version="6">
+	<Application>
+		<Name>VLC Media Player</Name>
+		<Version>3.0.4</Version>
+		<Author>VideoLan Org (Open Source)</Author>
+		<Url>http://www.videolan.org/vlc</Url>
+		<DownloadUrl>https://mirrors.ircam.fr/pub/videolan/vlc/3.0.4/win32/vlc-3.0.4-win32.exe</DownloadUrl>
+		<Size>38.3 Mo</Size>
+		<Platform>Windows</Platform>
+		<Image>https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/VLC_Icon.svg/180px-VLC_Icon.svg.png</Image>
+		<Description>VideoLAN Client est un projet multi-plateforme développé initialement par des étudiants de l'école centrale de Paris permettant de lire les vidéos au format Mpeg, DVD, VCD,  DivX et depuis une carte satellite par le biais d'un réseau.
+
+Ce logiciel peut s'utiliser soit comme un simple lecteur à la fois léger et puissant, soit, en liaison avec la partie "serveur" du logiciel, pour lire des vidéos diffusées sur un réseau local en streaming.
+
+- Peut tout lire - Fichiers, disques, webcams, périphériques et flux.
+- Lit la plupart des codecs, sans paquets de codecs nécessaires - MPEG-4, H.264, MKV, WebM, WMV, MP3...
+- Fonctionne sur toutes les plate-formes. - Windows, Linux, Mac OS X, Unix, iOS, Android ...
+- Complètement gratuit - pas de logiciel espion, ni publicité, ni suivi d'utilisateur.</Description>
+		<FilesList>
+		</FilesList>
+		<CommandsList>
+			<BeforeInstallation>
+				<Uninstall nameInAddRemoveSoftware="*VLC media player*" param="/S">VLC media player</Uninstall>
+			</BeforeInstallation>
+			<Installation>
+				<Execute param="/S">vlc-3.0.4-win32.exe</Execute>
+			</Installation>
+			<AfterInstallation>
+			</AfterInstallation>
+		</CommandsList>
+	</Application>
+	<Application>
+		<Name>KeePass Password Safe</Name>
+		<Version>2.40</Version>
+		<Author>Dominik Reichl (Freeware)</Author>
+		<Url>https://keepass.info</Url>
+		<DownloadUrl>https://freefr.dl.sourceforge.net/project/keepass/KeePass%202.x/2.40/KeePass-2.40-Setup.exe</DownloadUrl>
+		<Size>3.1 Mo</Size>
+		<Platform>Windows</Platform>
+		<Image>https://keepass.info/images/icons/keepass_256x256.png</Image>
+		<Description>Today you need to remember many passwords.
+You need a password for the Windows network logon, your e-mail account, your website's FTP password, online passwords (like website member account), etc. etc. etc.
+The list is endless. Also, you should use different passwords for each account. Because if you use only one password everywhere and someone gets this password you have a problem... A serious problem.
+The thief would have access to your e-mail account, website, etc. Unimaginable.
+
+KeePass is a free open source password manager, which helps you to manage your passwords in a secure way.
+You can put all your passwords in one database, which is locked with one master key or a key file.
+So you only have to remember one single master password or select the key file to unlock the whole database.
+The databases are encrypted using the best and most secure encryption algorithms currently known (AES and Twofish).</Description>
+		<FilesList>
+		</FilesList>
+		<CommandsList>
+			<BeforeInstallation>
+				<Uninstall nameInAddRemoveSoftware="*KeePass Password Safe*" param="/VERYSILENT">KeePass Password Safe</Uninstall>
+			</BeforeInstallation>
+			<Installation>
+				<Execute param="/VERYSILENT">KeePass-2.40-Setup.exe</Execute>
+			</Installation>
+			<AfterInstallation>
+			</AfterInstallation>
+		</CommandsList>
+	</Application>
+	<Application>
+		<Name>Notepad++</Name>
+		<Version>7.6</Version>
+		<Author>Open Source</Author>
+		<Url>https://notepad-plus-plus.org</Url>
+		<DownloadUrl>https://notefffffpad-plus-plus.org/repository/7.x/7.6/npp.7.6.Installer.exe</DownloadUrl>
+		<Size>4.1 Mo</Size>
+		<Platform>Windows</Platform>
+		<Image>https://upload.wikimedia.org/wikipedia/commons/0/0f/Notepad%2B%2B_Logo.png</Image>
+		<Description>Notepad++ is a free (as in "free speech" and also as in "free beer") source code editor and Notepad replacement that supports several languages.
+Running in the MS Windows environment, its use is governed by GPL License.
+
+Based on the powerful editing component Scintilla, Notepad++ is written in C++ and uses pure Win32 API and STL which ensures a higher execution speed and smaller program size.
+By optimizing as many routines as possible without losing user friendliness, Notepad++ is trying to reduce the world carbon dioxide emissions.
+When using less CPU power, the PC can throttle down and reduce power consumption, resulting in a greener environment.</Description>
+		<FilesList>
+		</FilesList>
+		<CommandsList>
+			<BeforeInstallation>
+				<Uninstall nameInAddRemoveSoftware="*Notepad++*" param="/S">Notepad++</Uninstall>
+			</BeforeInstallation>
+			<Installation>
+				<Execute param="/S">npp.7.6.Installer.exe</Execute>
+			</Installation>
+			<AfterInstallation>
+			</AfterInstallation>
+		</CommandsList>
+	</Application>
+</ApplicationsList>
+
